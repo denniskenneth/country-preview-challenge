@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+   /* FONT STYLING */
+
+.bold {
+    font-weight: 700;
+}
+
+
+.p-spacing {
+    padding: 3px 0;
+}
+
+.desc-area {
+    padding: 25px 0;
+}
+
+   /* FONT STYLING END */
+
+body{
+    background-color: #ECF0F1;
+}
+.header {
+    background-color: #FDFEFE;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header p{
+    padding: 10px 0 10px 0;
+}
+
+.header p img {
+    height: 13px;
+}
+.header p:first-child{
+    float: left;
+    margin-left: 2.5%;
+}
+.header p:nth-of-type(2) {
+    float: right;
+    margin-right: 2.5%;
+}
+
+
+ /* AFTERHEAD AREA */
+ .afterHead{
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+    /* SEARCH BAR */
+    .search {
+        float: left;
+        width: 50%;
+        /* margin-left: 2.5% */
+    }
+
+    input {
+        height: 30px;
+        width: 50%;
+        
+        /* background-image: url("res/search.png"); */
+    }
+
+    #search {
+        background-image: url("res/search.png");
+        background-size: 5% 50%;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: 2%;
+        text-indent: 15%;
+        font-size: 20px;
+        border: none;
+        border-style: outset;
+        border-width: 2px;
+        margin-left: 5%;
+        font-size: small;
+    }
+
+    /* DROP DOWN BTN */
+    .dropdown {
+        float: left;
+        /* margin-left: 2.5%; */
+        width: 50%;
+        /* display: inline-block; */
+    }
+
+    .dropbtn {
+        background-color: white;
+        height: 34px;
+        padding: 0 5px;
+        font-size: small;
+        border: none;
+        border-style: outset;
+        border-width: 2px;
+        float: right;
+        margin-right: 5%;
+    }
+
+    .flagArea {
+        margin-top: 10px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .flagArea p img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .flagArea p {
+        background-color: #CACFD2;
+        float: left;
+        width: 20%;
+        /* height: 500%; */
+        overflow: hidden;
+        border-radius: 10px;
+        /* border-style: outset;
+        border-width: 2px; */
+        margin:  2.5%;
+        padding: 0;
+    }
+
+    .flagArea p span {
+        display: block;
+        margin-left: 10px;
+    }
