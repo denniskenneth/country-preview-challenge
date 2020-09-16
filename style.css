@@ -118,7 +118,7 @@ body{
         float: left;
         width: 20%;
         /* height: 500%; */
-        overflow: hidden;
+        /* overflow: hidden; */
         border-radius: 10px;
         /* border-style: outset;
         border-width: 2px; */
@@ -142,10 +142,40 @@ body{
         .flagArea p {
             float: none;
         }
+    }
 
-        .flagArea p span {
+    @media screen and (max-width: 550px) {
+        body {
+            
+        }
+
+        input{
+            width: 80%;
+            
+        }
+        #search {
+            text-indent: 12%;
+            font-weight: 500%;
+        }
+        .dropbtn {
+            width: 80%;
+        }
+        .flagArea p {
+            height: 20%;
+            width: 100%;
             display: flex;
             flex-direction: column;
-            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        .flagArea p img {
+            height: 25%;
+        }
+
+        .p-spacing {
+            font-size: 25px
+        }
+
+        .flagArea p span {
+            /* font-size: smaller; */
         }
     }
